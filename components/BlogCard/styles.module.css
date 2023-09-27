@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    border-radius: 9px;
+
+}
+
+.cardBody{
+    margin-left: 18px;
+}
+
+.cardBody p{
+    margin-top: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.cardBody h3{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 19px;
+}
